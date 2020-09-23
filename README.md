@@ -2,7 +2,7 @@
 
 deno minimal web framework
 
-# Getting Start
+# Getting Started
 ```javascript
 import { Application } from "https://deno.land/x/espresso/mod.ts";
 const app = new Application({ port : 80});
@@ -25,19 +25,20 @@ app.start();
 # TODO
 
 ### Web Framework :
-- [ ] implement dynamic routes
+- [x] implement dynamic routes
 - [x] regex routes
 - [ ] namespaced routes
-- [ ] implement middlewares
+- [x] implement middlewares
 - [ ] default security
 - [ ] serve local files
 - [ ] support proxies
 - [ ] handle multipart/form-data
 - [ ] support for template engines
-- [ ] export context type
+- [ ] export types
 - [ ] error Handling
 - [x] logging
 - [ ] validation
+- [ ] Testing Modules for all supported Features
 
 ### community :
 - [ ] init docs
@@ -51,13 +52,13 @@ app.start();
 - [ ] use espresso itself in website
 
 ## Our Roadmap :
-- [ ] DATABASE integration
+- [ ] Database integration
 - [ ] Microservices
 - [ ] MVC Pattern
 - [ ] CLI Tool
-- [ ] WEB SOCKETS
-- [ ] GRAPHQL
-- [ ] CRYPTO
-- [ ] HELPERS
-- [ ] TESTS
+- [ ] Web Sockets
+- [ ] GraphQL
+- [ ] Crypto
+- [ ] Helpers
+- [ ] Tests
 
